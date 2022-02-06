@@ -41,7 +41,7 @@ const autoscroll = () => {
     Math.round(containerHeight - newMessageHeight - 1) <=
     Math.round(scrollOffset)
   ) {
-    $message.scrollTop = $message.scrollHeight;
+    $messages.scrollTop = $messages.scrollHeight;
   }
 };
 
